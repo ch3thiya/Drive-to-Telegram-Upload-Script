@@ -98,10 +98,11 @@ This project is open-source and available under the [MIT License](LICENSE.txt).
 
 ---
 
-<h3 align="left">Connect with me:</h3>
-<a href="https://www.linkedin.com/in/chethiya-ravindranath-64a1b5329/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/ch3thiya" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>  
+
+<br>
+< Happy Coding />
+<br>
+<b>Chethiya Ravindranath<b>
+<br>
+<a href="https://www.linkedin.com/in/chethiya-ravindranath-64a1b5329/">Linkedin</a> | <a href="https://www.instagram.com/ch3thiya">Instagram</a>
+</p>
