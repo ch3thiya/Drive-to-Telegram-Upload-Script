@@ -41,13 +41,14 @@ Before running the script, ensure you have the following:
    - Share the file in Google Drive with the service account's email.
 
 2. **Telegram Bot**:
-   - Start @DtoTel_Bot Telegram bot.
+   - Start [@DtoTel_Bot](https://t.me/DtoTel_Bot) Telegram bot.
 
 ---
 
 ## Installation
 1. **Clone this repository or download the script.**
 2. **Install the required Python packages.**
+
    ```bash
    pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
    ```
@@ -69,14 +70,18 @@ Before running the script, ensure you have the following:
 ## Usage
 1. **Start the Telegram bot by sending a message to it.**
 2. **Run the script.**
+   
    ```bash
    python script.py
    ```
-3. **The script will**
+   
+4. **The script will**
    * Fetch the chat ID from Telegram.
    * Search for the specified file in Google Drive.
    * Download the file.
-   Upload and send the file to the Telegram chat.
+   * Upload and send the file to the Telegram chat.
+  
+![alt text]((https://drive.google.com/file/d/1Nw6vi8H9veWGP_TqCyqXIIyrmYTNofjf/view?usp=sharing) "Preview")
 
 ---
 
@@ -90,11 +95,9 @@ This project is open-source and available under the MIT License.
 * [Telegram Bot API Documentation](https://core.telegram.org/bots/api)
 
 
-<div id="badges">
-  <a href="[LINKEDIN](https://www.linkedin.com/in/chethiya-ravindranath-64a1b5329/)">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="[INSTAGRAM](https://www.instagram.com/)">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
-  </a>
-</div>
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/chethiya-ravindranath-64a1b5329" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chethiya-ravindranath-64a1b5329" height="30" width="40" /></a>
+<a href="https://instagram.com/ch3thiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ch3thiya" height="30" width="40" /></a>
+</p>
