@@ -88,7 +88,7 @@ Before running the script, ensure you have the following:
 ---
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE.txt).
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
@@ -99,6 +99,9 @@ This project is open-source and available under the [MIT License](LICENSE.txt).
 ---
 
 
+<p>
+Last Updated: January 30, 2025
+</p>
 <br>
 < Happy Coding />
 <br>
