@@ -81,7 +81,7 @@ Before running the script, ensure you have the following:
    * Download the file.
    * Upload and send the file to the Telegram chat.
   
-![alt text]((https://drive.google.com/file/d/1Nw6vi8H9veWGP_TqCyqXIIyrmYTNofjf/view?usp=sharing) "Preview")
+![Preview](github.png)
 
 ---
 
