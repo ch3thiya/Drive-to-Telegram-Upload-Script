@@ -80,13 +80,15 @@ Before running the script, ensure you have the following:
    * Search for the specified file in Google Drive.
    * Download the file.
    * Upload and send the file to the Telegram chat.
+
   
 ![Preview](github.png)
+
 
 ---
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE.txt).
 
 ---
 
@@ -94,10 +96,12 @@ This project is open-source and available under the MIT License.
 * [Google Drive API Documentation](https://developers.google.com/drive/api/guides/about-sdk)
 * [Telegram Bot API Documentation](https://core.telegram.org/bots/api)
 
-
+---
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/chethiya-ravindranath-64a1b5329" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chethiya-ravindranath-64a1b5329" height="30" width="40" /></a>
-<a href="https://instagram.com/ch3thiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ch3thiya" height="30" width="40" /></a>
-</p>
+<a href="https://www.linkedin.com/in/chethiya-ravindranath-64a1b5329/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://instagram.com/ch3thiya" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>  
