@@ -2,7 +2,6 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import requests
 
-# Google Drive API setup
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 creds = service_account.Credentials.from_service_account_file("JSON FILE PATH",
                                                               scopes=SCOPES)
@@ -36,7 +35,6 @@ if not chat_id:
     exit("Error: Could not retrieve chat ID. Ensure the bot has received at least one message.")
 
 
-# Search for the file by name
 results = service.files().list(q=f"name='{file_name}' and trashed=false", fields='files(id, name, mimeType)').execute()
 items = results.get('files', [])
 
@@ -46,7 +44,6 @@ else:
     file = items[0]
     file_id = file['id']
 
-    # Get the file's download URL
     download_url = f"https://www.googleapis.com/drive/v3/files/{file_id}?alt=media"
     headers = {'Authorization': f'Bearer {creds.token}'}
 
@@ -56,7 +53,6 @@ else:
         file_size = int(response.headers.get('content-length', 0))
         print(f"Downloading {file['name']} ({file_size} bytes) from Google Drive...")
 
-        # Save to temporary file
         temp_file_path = f"./{file_name}"
         with open(temp_file_path, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
@@ -65,7 +61,6 @@ else:
 
         print(f"Download complete: {temp_file_path}")
 
-        # Upload to Telegram
         with open(temp_file_path, 'rb') as f:
             url = f"https://api.telegram.org/bot{bot_token}/sendDocument"
             data = {'chat_id': chat_id}
